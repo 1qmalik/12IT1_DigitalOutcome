@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmFinalStandGameCreationMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalStandGameCreationMenu.Designer.cs">
+      <DependentUpon>frmFinalStandGameCreationMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmFinalStandMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmFinalStandGameCreationMenu.resx">
+      <DependentUpon>frmFinalStandGameCreationMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmFinalStandMainMenu.resx">
       <DependentUpon>frmFinalStandMainMenu.cs</DependentUpon>
     </EmbeddedResource>

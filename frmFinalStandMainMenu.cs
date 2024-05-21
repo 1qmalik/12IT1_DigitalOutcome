@@ -23,14 +23,6 @@ namespace FinalStand_Version_1._0
         {
 
         }
-
-        private void btnControls_MouseEnter(object sender, EventArgs e)
-        {
-            btnControls.ForeColor = Color.DarkTurquoise;
-            btnControls.BackColor = Color.Transparent;
-            btnControls.FlatStyle = FlatStyle.Flat;
-        }
-
         private void btnPlay_MouseEnter(object sender, EventArgs e)
         {
             btnPlay.ForeColor = Color.DarkTurquoise;
@@ -45,11 +37,16 @@ namespace FinalStand_Version_1._0
             btnPlay.FlatStyle = FlatStyle.Flat;
         }
 
-        private void btnControls_MouseLeave(object sender, EventArgs e)
+        private void btnPlay_Click(object sender, EventArgs e)
         {
-            btnControls.ForeColor = Color.DarkCyan;
-            btnControls.BackColor = Color.Transparent;
-            btnControls.FlatStyle = FlatStyle.Flat;
+            /*
+            Creates an instance of the Game Creator Forms
+            Then it displays it over the main menu
+            The main menu is then hidden
+            */
+            frmFinalStandGameCreationMenu frmGameCreator = new frmFinalStandGameCreationMenu();
+            frmGameCreator.Show();
+            this.Hide();
         }
     }
 }

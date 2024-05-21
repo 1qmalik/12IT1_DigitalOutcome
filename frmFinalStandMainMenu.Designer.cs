@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFinalStandMainMenu));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnPlay = new System.Windows.Forms.Button();
-            this.btnControls = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,35 +55,17 @@
             this.btnPlay.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnPlay.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPlay.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlay.Font = new System.Drawing.Font("Comic Sans MS", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlay.ForeColor = System.Drawing.Color.DarkCyan;
-            this.btnPlay.Location = new System.Drawing.Point(195, 106);
+            this.btnPlay.Location = new System.Drawing.Point(200, 111);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(132, 48);
+            this.btnPlay.Size = new System.Drawing.Size(132, 61);
             this.btnPlay.TabIndex = 1;
             this.btnPlay.Text = "PLAY";
             this.btnPlay.UseVisualStyleBackColor = false;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             this.btnPlay.MouseEnter += new System.EventHandler(this.btnPlay_MouseEnter);
             this.btnPlay.MouseLeave += new System.EventHandler(this.btnPlay_MouseLeave);
-            // 
-            // btnControls
-            // 
-            this.btnControls.AutoSize = true;
-            this.btnControls.BackColor = System.Drawing.Color.Transparent;
-            this.btnControls.FlatAppearance.BorderSize = 0;
-            this.btnControls.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnControls.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnControls.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnControls.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnControls.ForeColor = System.Drawing.Color.DarkCyan;
-            this.btnControls.Location = new System.Drawing.Point(177, 160);
-            this.btnControls.Name = "btnControls";
-            this.btnControls.Size = new System.Drawing.Size(180, 48);
-            this.btnControls.TabIndex = 2;
-            this.btnControls.Text = "CONTROLS";
-            this.btnControls.UseVisualStyleBackColor = false;
-            this.btnControls.MouseEnter += new System.EventHandler(this.btnControls_MouseEnter);
-            this.btnControls.MouseLeave += new System.EventHandler(this.btnControls_MouseLeave);
             // 
             // lblTitle
             // 
@@ -92,7 +73,7 @@
             this.lblTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblTitle.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.MediumTurquoise;
-            this.lblTitle.Location = new System.Drawing.Point(138, 9);
+            this.lblTitle.Location = new System.Drawing.Point(132, 9);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(245, 45);
             this.lblTitle.TabIndex = 3;
@@ -107,7 +88,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(484, 461);
             this.Controls.Add(this.lblTitle);
-            this.Controls.Add(this.btnControls);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -126,7 +106,6 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnPlay;
-        private System.Windows.Forms.Button btnControls;
         private System.Windows.Forms.Label lblTitle;
     }
 }
