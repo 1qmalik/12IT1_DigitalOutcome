@@ -12,7 +12,7 @@ namespace FinalStand_Version_1._0
 {
     public partial class frmFinalStandMainMenu : Form
     {
-        string rootResourceDirectory = @"..\..\resources";
+        string rootResourceDirectory = "resources";
 
         public frmFinalStandMainMenu()
         {
@@ -44,9 +44,10 @@ namespace FinalStand_Version_1._0
             Then it displays it over the main menu
             The main menu is then hidden
             */
-            frmFinalStandGameCreationMenu frmGameCreator = new frmFinalStandGameCreationMenu();
-            frmGameCreator.Show();
             this.Hide();
+            frmFinalStandGameCreationMenu frmGameCreator = new frmFinalStandGameCreationMenu();
+            frmGameCreator.ShowDialog();
+            this.Close();
         }
     }
 }

@@ -38,7 +38,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.ImageLocation = "..\\..\\resources\\sprites\\fire_sparks.gif";
+            this.pictureBox1.ImageLocation = "resources\\sprites\\fire_sparks.gif";
             this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(101, 178);
             this.pictureBox1.Name = "pictureBox1";

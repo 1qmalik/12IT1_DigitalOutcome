@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AA8CFFE4-A31B-49E5-9B3B-1EEDAA96952D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>FinalStand_Version_1._0</RootNamespace>
-    <AssemblyName>FinalStand_Version_1.0</AssemblyName>
+    <RootNamespace>FinalStand</RootNamespace>
+    <AssemblyName>FinalStand</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -74,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -89,9 +90,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="resources\background\MainMenuBackground.jfif" />
-    <Content Include="resources\sprites\fire_sparks.gif" />
+    <Content Include="bin\Debug\resources\background\MainMenuBackground.jfif" />
+    <Content Include="bin\Debug\resources\sprites\fire_sparks.gif" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="bin\Debug\resources\maps\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
