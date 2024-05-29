@@ -58,6 +58,12 @@
     <Compile Include="frmFinalStandMainMenu.Designer.cs">
       <DependentUpon>frmFinalStandMainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGame.Designer.cs">
+      <DependentUpon>frmGame.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmFinalStandGameCreationMenu.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmFinalStandMainMenu.resx">
       <DependentUpon>frmFinalStandMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGame.resx">
+      <DependentUpon>frmGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,10 +100,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\resources\background\MainMenuBackground.jfif" />
+    <Content Include="bin\Debug\resources\maps\Basic.png" />
+    <Content Include="bin\Debug\resources\maps\mapData\mapData.xml" />
+    <Content Include="bin\Debug\resources\SpawnOrder.txt" />
+    <Content Include="bin\Debug\resources\sprites\BasicEnemyAttacker.png" />
     <Content Include="bin\Debug\resources\sprites\fire_sparks.gif" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\Debug\resources\maps\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

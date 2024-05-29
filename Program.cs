@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FinalStand_Version_1._0
+namespace FinalStand
 {
     internal static class Program
     {

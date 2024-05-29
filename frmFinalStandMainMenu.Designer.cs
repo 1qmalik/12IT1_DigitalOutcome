@@ -1,4 +1,4 @@
-﻿namespace FinalStand_Version_1._0
+﻿namespace FinalStand
 {
     partial class frmFinalStandMainMenu
     {

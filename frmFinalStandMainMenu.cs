@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FinalStand_Version_1._0
+namespace FinalStand
 {
     public partial class frmFinalStandMainMenu : Form
     {

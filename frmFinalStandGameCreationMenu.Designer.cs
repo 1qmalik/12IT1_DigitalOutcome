@@ -1,4 +1,4 @@
-﻿namespace FinalStand_Version_1._0
+﻿namespace FinalStand
 {
     partial class frmFinalStandGameCreationMenu
     {
@@ -89,13 +89,14 @@
             this.btnStart.Location = new System.Drawing.Point(165, 170);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 29);
-            this.btnStart.TabIndex = 4;
+            this.btnStart.TabIndex = 2;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // cmbMap
             // 
+            this.cmbMap.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMap.Font = new System.Drawing.Font("Cascadia Code SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMap.FormattingEnabled = true;
             this.cmbMap.Items.AddRange(new object[] {
@@ -103,7 +104,7 @@
             this.cmbMap.Location = new System.Drawing.Point(37, 99);
             this.cmbMap.Name = "cmbMap";
             this.cmbMap.Size = new System.Drawing.Size(121, 33);
-            this.cmbMap.TabIndex = 5;
+            this.cmbMap.TabIndex = 0;
             // 
             // label1
             // 
@@ -133,6 +134,7 @@
             // 
             // cmbDifficulty
             // 
+            this.cmbDifficulty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbDifficulty.Font = new System.Drawing.Font("Cascadia Code SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbDifficulty.FormattingEnabled = true;
             this.cmbDifficulty.Items.AddRange(new object[] {
@@ -140,7 +142,7 @@
             this.cmbDifficulty.Location = new System.Drawing.Point(252, 99);
             this.cmbDifficulty.Name = "cmbDifficulty";
             this.cmbDifficulty.Size = new System.Drawing.Size(121, 33);
-            this.cmbDifficulty.TabIndex = 7;
+            this.cmbDifficulty.TabIndex = 1;
             // 
             // frmFinalStandGameCreationMenu
             // 
@@ -157,6 +159,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmFinalStandGameCreationMenu";
             this.Text = "frmFinalStandGameCreationMenu";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmFinalStandGameCreationMenu_FormClosed);
