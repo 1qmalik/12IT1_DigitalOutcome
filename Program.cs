@@ -8,6 +8,7 @@ namespace FinalStand
 {
     internal static class Program
     {
+        public static frmGame game;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

@@ -160,6 +160,8 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmFinalStandGameCreationMenu";
             this.Text = "frmFinalStandGameCreationMenu";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmFinalStandGameCreationMenu_FormClosed);

@@ -81,6 +81,7 @@
             // 
             // frmFinalStandMainMenu
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
@@ -93,6 +94,7 @@
             this.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Honeydew;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "frmFinalStandMainMenu";
             this.Text = "Final Stand Main Menu";
             this.Load += new System.EventHandler(this.frmFinalStandMainMenu_Load);
