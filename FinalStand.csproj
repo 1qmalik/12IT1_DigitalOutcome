@@ -104,6 +104,7 @@
     <Content Include="bin\Debug\resources\maps\mapData\mapData.xml" />
     <Content Include="bin\Debug\resources\SpawnOrder.txt" />
     <Content Include="bin\Debug\resources\sprites\BasicEnemyAttacker.png" />
+    <Content Include="bin\Debug\resources\sprites\BasicSoldierDefence.png" />
     <Content Include="bin\Debug\resources\sprites\fire_sparks.gif" />
   </ItemGroup>
   <ItemGroup />

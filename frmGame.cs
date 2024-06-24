@@ -15,12 +15,15 @@ namespace FinalStand
 {
     public partial class frmGame : Form
     {
-        int wave = 1;
+        int wave = 1, startingIncome = 20, startingHP = 100, numebrOfDefences = 1;
+        int mouseX, mouseY;
+        bool mouseClick;
         string mapNameWithExtension;
         string mapNameNoExtension;
         mapData properties;
         StreamReader readFile = new StreamReader($@"{GlobalVariables.rootResource}SpawnOrder.txt");
         GameProperties gameProperties = new GameProperties();
+        List<defence> playerDefences;
 
         public frmGame(string mapName, string difficultyLevel)
         {
@@ -65,38 +68,95 @@ namespace FinalStand
         }
 
         bool temp = false;
+
+        private void toolStripMenuItem17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmGame_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (mouseClick == true)
+            {
+                playerDefences[numebrOfDefences - 1].SetLocation(this, e.X, e.Y);
+                mouseClick = false;
+            }
+        }
+
+        private void dOWNToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            playerDefences = new List<defence>();
+            playerDefences.Add(new defence(new Bitmap($@"{GlobalVariables.sprites}BasicSoldierDefence.png"), "down", this));
+            mouseClick = true;
+        }
+
+        private void lEFTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            playerDefences = new List<defence>();
+            playerDefences.Add(new defence(new Bitmap($@"{GlobalVariables.sprites}BasicSoldierDefence.png"), "left", this));
+            mouseClick = true;
+        }
+
+        private void rIGHTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            playerDefences = new List<defence>();
+            playerDefences.Add(new defence(new Bitmap($@"{GlobalVariables.sprites}BasicSoldierDefence.png"), "right", this));
+            mouseClick = true;
+        }
+
+        private void frmGame_MouseMove(object sender, MouseEventArgs e)
+        {
+            mouseX = e.X;
+            mouseY = e.Y;
+        }
+
+        private void uPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            playerDefences = new List<defence>();
+            playerDefences.Add(new defence(new Bitmap($@"{GlobalVariables.sprites}BasicSoldierDefence.png"), "up", this));
+            mouseClick = true;
+        }
+
+        async Task startWave(string line)
+        {
+            await Task.Run(() =>
+            {
+                while ((line = readFile.ReadLine()) != null && gameProperties.wave == wave)
+                {
+                    int index = 0;
+                    List<enemy> enemyPlayers = new List<enemy>();
+                    foreach (char enemyType in line)
+                    {
+                        switch (enemyType)
+                        {
+                            case '1':
+                                //Basic enemy spawns
+                                enemyPlayers.Add(new enemy(Image.FromFile($@"{GlobalVariables.sprites}BasicEnemyAttacker.png"), mapNameNoExtension, this));
+                                enemyPlayers[index].Move(this);
+                                index++;
+                                break;
+                        }
+                        System.Threading.Thread.Sleep(1000);
+                    }
+                    line = "";
+                }
+            });
+        } 
+
         private void tmrGameLoop_Tick(object sender, EventArgs e)
         {
             while (temp != true)
             {
                 properties = LoadMapData(mapNameNoExtension);
+                gameProperties.money = startingIncome;
+                mnuMainBar.Items[5].Text = $"MONEY:    {gameProperties.money}";
+                mnuMainBar.Items[4].Text = gameProperties.score.ToString();
+                mnuMainBar.Items[2].Text = gameProperties.HP.ToString();
                 temp = true;
             }
+            string line = "";
 
-            gameProperties.score++;
-            gameProperties.wave++;
-            string line;
-
-            while ((line = readFile.ReadLine()) != null)
-            {
-                int index = 0;
-                List<enemy> enemyPlayers = new List<enemy>();
-                List<Task> enemyMove = new List<Task>();
-                foreach (char enemyType in line)
-                {
-                    switch (enemyType)
-                    {
-                        case '1':
-                            //Basic enemy spawns
-                            enemyPlayers.Add(new enemy(Image.FromFile($@"{GlobalVariables.sprites}BasicEnemyAttacker.png"), mapNameNoExtension, this));
-                            enemyPlayers[index].Move(this);
-                            index++;
-                            break;
-                    }
-                    System.Threading.Thread.Sleep(1000);
-                }
-                line = "";
-            }
+            startWave(line);
         }
     }
 
@@ -110,11 +170,15 @@ namespace FinalStand
         public static string rootResource = @"resources\";
     }
 
+    /// <summary>
+    /// this class holds 3 variables that are needed for the game to be a game
+    /// </summary>
     class GameProperties
     {
         public int wave = 0;
         public int score = 0;
         public int money = 0;
+        public int HP = 0;
     }
 
     /// <summary>
@@ -127,6 +191,9 @@ namespace FinalStand
         public List<Dictionary<(int, int), string>> turningPoints = new List<Dictionary<(int, int), string>>();
     }
 
+    /// <summary>
+    /// This class initialises an enemy after being creates, and its sole purpose is to acts as a template.
+    /// </summary>
     class enemy
     {
         public int health = 100;
@@ -291,6 +358,42 @@ namespace FinalStand
 
             numberOfChckpoints = index;
             return data;
+        }
+    }
+
+    class defence
+    {
+        PictureBox defenceObj = new PictureBox();
+
+        public defence(Bitmap bmp, string direction, Form game)
+        {
+            defenceObj.Image = bmp;
+            defenceObj.SizeMode = PictureBoxSizeMode.AutoSize;
+            defenceObj.BackColor = Color.Transparent;
+            defenceObj.BringToFront();
+
+            switch (direction)
+            {
+                case "left":
+                    bmp.RotateFlip(RotateFlipType.Rotate90FlipY);
+                    break;
+
+                case "right":
+                    bmp.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                    break;
+
+                case "down":
+                    bmp.RotateFlip(RotateFlipType.RotateNoneFlipX);
+                    break;
+            }
+
+            game.Controls.Add(defenceObj);
+            //
+        }
+
+        public void SetLocation(Form game, int x, int y)
+        {
+            defenceObj.Location = new Point(x - (defenceObj.Width / 2), y - (defenceObj.Height / 2));
         }
     }
 }
