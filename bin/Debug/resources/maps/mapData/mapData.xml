@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<map>
+	<Basic>
+		<EnemySpawn>
+			<x>243</x>
+			<y>5</y>
+		</EnemySpawn>
+		<PlayerBase>
+			<x>165</x>
+			<y>260</y>
+		</PlayerBase>
+		<TurningPoints>
+			<a>
+				<x>250</x>
+				<y>188</y>
+				<direction>right</direction>
+			</a>
+			
+			<b>
+				<x>430</x>
+				<y>200</y>
+				<direction>down</direction>
+			</b>
+			
+			<c>
+				<x>440</x>
+				<y>375</y>
+				<direction>left</direction>
+			</c>
+			
+			<d>
+				<x>35</x>
+				<y>375</y>
+				<direction>up</direction>
+			</d>
+			
+			<e>
+				<x>42</x>
+				<y>260</y>
+				<direction>right</direction>
+			</e>
+		</TurningPoints>
+	</Basic>
+	<Lava>
+		<EnemySpawn>
+			<x>410</x>
+			<y>15</y>
+		</EnemySpawn>
+		<PlayerBase>
+			<x>172</x>
+			<y>410</y>
+		</PlayerBase>
+		<TurningPoints>
+			<a>
+				<x>397</x>
+				<y>128</y>
+				<direction>left</direction>
+			</a>
+
+			<b>
+				<x>74</x>
+				<y>128</y>
+				<direction>down</direction>
+			</b>
+
+			<c>
+				<x>61</x>
+				<y>180</y>
+				<direction>right</direction>
+			</c>
+
+			<d>
+				<x>412</x>
+				<y>180</y>
+				<direction>down</direction>
+			</d>
+
+			<e>
+				<x>412</x>
+				<y>350</y>
+				<direction>left</direction>
+			</e>
+		</TurningPoints>
+	</Lava>
+	<Water>
+		<EnemySpawn>
+			<x>66</x>
+			<y>22</y>
+		</EnemySpawn>
+		<PlayerBase>
+			<x>73</x>
+			<y>250</y>
+		</PlayerBase>
+		<TurningPoints>
+			<a>
+				<x>66</x>
+				<y>70</y>
+				<direction>right</direction>
+			</a>
+
+			<b>
+				<x>402</x>
+				<y>70</y>
+				<direction>down</direction>
+			</b>
+
+			<c>
+				<x>402</x>
+				<y>360</y>
+				<direction>left</direction>
+			</c>
+
+			<d>
+				<x>217</x>
+				<y>360</y>
+				<direction>up</direction>
+			</d>
+
+			<e>
+				<x>217</x>
+				<y>150</y>
+				<direction>left</direction>
+			</e>
+
+			<f>
+				<x>73</x>
+				<y>150</y>
+				<direction>down</direction>
+			</f>
+		</TurningPoints>
+	</Water>
+</map>

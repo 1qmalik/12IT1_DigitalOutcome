@@ -1,0 +1,70 @@
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.exe.config
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.exe
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.pdb
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.AssemblyReference.cache
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmFinalStandGameCreationMenu.resources
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmFinalStandMainMenu.resources
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmGame.resources
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.Properties.Resources.resources
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.GenerateResource.cache
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.CoreCompileInputs.cache
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.exe
+C:\Users\1AteMyself\Documents\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.pdb
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.exe.config
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.exe
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.pdb
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.AssemblyReference.cache
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.SuggestedBindingRedirects.cache
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmFinalStandGameCreationMenu.resources
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmFinalStandMainMenu.resources
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmGame.resources
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.Properties.Resources.resources
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.GenerateResource.cache
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.CoreCompileInputs.cache
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.exe
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.pdb
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.exe.config
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.exe
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.pdb
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.AssemblyReference.cache
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmFinalStandGameCreationMenu.resources
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmFinalStandMainMenu.resources
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmGame.resources
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.Properties.Resources.resources
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.GenerateResource.cache
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.CoreCompileInputs.cache
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.exe
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.pdb
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmEndScreen.resources
+C:\Users\1AteMyself\Desktop\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmTutorial.resources
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.exe.config
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.exe
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.pdb
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.AssemblyReference.cache
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmEndScreen.resources
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmFinalStandGameCreationMenu.resources
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmFinalStandMainMenu.resources
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmGame.resources
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmTutorial.resources
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.Properties.Resources.resources
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.GenerateResource.cache
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.CoreCompileInputs.cache
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.exe
+D:\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.pdb
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.exe.config
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.exe
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\bin\Debug\FinalStand.pdb
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.AssemblyReference.cache
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.SuggestedBindingRedirects.cache
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmEndScreen.resources
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmFinalStandGameCreationMenu.resources
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmFinalStandMainMenu.resources
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmGame.resources
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmTutorial.resources
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.Properties.Resources.resources
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.GenerateResource.cache
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.csproj.CoreCompileInputs.cache
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.exe
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\QASIM_MALIK-FinalStand_Version_4.0\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.pdb
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmEndScreen.resources
+K:\SCHOOL\12IT1\Digital Outcome\Code\Forms\12IT1_DigitalOutcome-FinalStand_Verson_6.0\obj\Debug\FinalStand.frmTutorial.resources
